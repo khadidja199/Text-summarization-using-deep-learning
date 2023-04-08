@@ -1,34 +1,7 @@
-# Text summarization using deep learning
+Text summarization using deep learning
 
-## Definition and goal of the study
+Definition and goal of the study
 
 Ever feel lazy or like you don’t have enough time to read everything that you want to? What if you could run a routine that summarized documents for you, whether it’s your favorite news source, academic articles, or work-related documents?***
 
 -- The objective of this project is to build a model using NLP Advanced that can create make summaries for reviews written on Wine reviews.
-
-**Some infos**
-
-Text summarization is a Natural Language Processing (NLP) task that summarizes the information in large texts for quicker consumption without losing vital information. 
-
-In other words, text summarization is the process of distilling the most important information from a source (or sources) to produce an abridged version for a particular user (or users) and task (or tasks).
-
-Automatic Text Summarization is one of the most challenging and interesting problems in the field of Natural Language Processing (NLP). It is a process of generating a concise and meaningful summary of text from multiple text resources such as books, news articles, blog posts, research papers, emails, and tweets.
-
-
-
-There are mainly two ways to make the summary.
-
-`Extractive Text Summarization` : attempts to identify significant sentences and then adds them to the summary, which will contain exact sentences from the original text.
-
-`Abstractive Text Summarization`: attempts to identify important sections, interpret the context and intelligently generate a summary.
-
-> In the case of our analysis, we will use the abstractive method.
-
-## Understanding the TextRank Algorithm
-
-Before getting started with the TextRank algorithm, there’s another algorithm which we should become familiar with – the PageRank algorithm. In fact, this actually inspired TextRank! PageRank is used primarily for ranking web pages in online search results. Let’s quickly understand the basics of this algorithm with the help of an example.
-
-Let’s understand the TextRank algorithm, now that we have a grasp on PageRank. I have listed the similarities between these two algorithms below:
-
-In place of web pages, we use sentences Similarity between any two sentences is used as an equivalent to the web page transition probability The similarity scores are stored in a square matrix, similar to the matrix M used for PageRank TextRank is an extractive and unsupervised text summarization technique. Let’s take a look at the flow of the TextRank algorithm that we will be following:
-
